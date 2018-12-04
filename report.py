@@ -8,9 +8,9 @@ import pandas as pd
 from datetime import datetime
 
 #mysql connector
-smability = mysql.connector.connect(user='smabilit_air', password='3[uyRMhl@uJT',
-                                        host='174.136.28.81',#cpanel host
-                                        database='smabilit_airquality')
+smability = mysql.connector.connect(user='', password='',
+                                        host='',#cpanel host
+                                        database='')
 try:
     cursor = smability.cursor()
     #query = "SELECT readingtime, reading FROM temperature WHERE device_ID = 1"
