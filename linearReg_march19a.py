@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-plt.rcParms['figure.figsize']=(12.0,9.0)
+plt.rcParams['figure.figsize']=(12.0,9.0)
 
 #preprocessing Input data
 data = pd.read_csv('CasaClima_BJU_19Nov18_16Dic18 PM25PM10.csv')
